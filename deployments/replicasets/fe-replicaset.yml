@@ -1,7 +1,7 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: ReplicaSet
 metadata:
-  name: fe-deployment
+  name: fe-replicaset
 spec:
   replicas: 1
   selector:
